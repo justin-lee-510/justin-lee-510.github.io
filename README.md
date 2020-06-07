@@ -1,3 +1,3 @@
 title: Welcome to the Justin’s homepage!
-For fun
+/n For fun
 
