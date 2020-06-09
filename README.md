@@ -10,7 +10,7 @@ title: Welcome to the Justin’s homepage!
 
 <body>
   <nav>
-    <a href="./index.html">Brown Bear</a>
+    <a href="./index.html">Brown Bear/ </a>
     <a href="./aboutme.html">About Me</a>
   </nav>
   <h1>The Brown Bear</h1>
