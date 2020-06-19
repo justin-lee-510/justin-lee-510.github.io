@@ -1,66 +1,158 @@
 <!DOCTYPE html>
 <html>
 
-<center>
+<title>Justin Lee</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
 
-<head>
-  <title>Justin Lee</title>
-</head>
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("piano.jpg");
+  min-height: 75%;
+}
 
-<h1 style= "color:blue"> Welcome to Justin Lee's website </h1>
-<a href= "./aboutme.html"> About Me </a>
-<a href= "./film.html"> -- Favorite Movies </a>
-<h2 style= "color:green"> This is about Grookey the monkey. We will meet a Grookey named Bob </h2>
- <li> <a href = "#pokedex"> Pokedex </a> </li>
- <li> <a href = "#about"> About </a> </li>
- <li> <a href = "#links"> Links </a> </li>
+.menu {
+  display: none;
+}
+</style>
+<body>
 
-<h2>
-  <img src="monkey.jpeg" alt="a monkey with a snack" height = "200" width = "200" />
-</h2>
-
-<div id="pokedex">
-  <h2 style = "color:DarkGreen"> Grookey Pokedex </h2>
-  <p style= "font-family: verdana; font-size: 15px;"> Grookey is a Grass type Pokémon introduced in Generation 8. It is known as the Chimp Pokémon.
-
-Grookey is one of the starter Pokémon available in Pokémon Sword & Shield (releasing late 2019) along with Scorbunny and Sobble.
-
-It is a mischievous Pokémon that is full of boundless curiosity. During the Sword & Shield announcement trailer it is seen tapping the stick it keeps in its hair, then climbing to the top of a building.
-
-Grookey appears to be based on a spider monkey. </p>
-
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="./index.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#rates" class="w3-button w3-block w3-black">RATES</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#contact" class="w3-button w3-block w3-black">CONTACT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="./film.html" class="w3-button w3-block w3-black">HOBBIES</a>
+    </div>
+  </div>
 </div>
 
-</center>
-<div id = "about">
-  <center>
-    <h2 style= "color:SeaGreen"> About Bob: </h2>
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Piano Performer and Teacher</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">Justin<br>Lee</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">justin.lee@redlands.edu</span>
+  </div>
+</header>
 
-      <li style ="font-size: 17px;"> This monkey is green </li>
-      <li style ="font-size: 17px;"> His name is Bob </li>
-      <li style ="font-size: 17px;"> He likes cheetos </li>
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
 
-  </center>
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT JUSTIN LEE</span></h5>
+    <p>My name is Justin, and I am currently a Senior at the University of Redlands.
+      I am studying both piano and mathematics, and am in the process of getting a double degree. I have been teaching for over four years, and
+      enjoy working with children young and old!</p>
+    <p>Outside of piano, I also enjoy watching movies,playing video games, and taking care of my dog, Mochi.
+    My career goal is quite broad; I wish to continue to operate in a balance between both the music and math world.</p>
+    <!-- <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"quote"</i></p>
+      <p>Person who quoted me^^ </p>
+    </div> -->
+
+  </div>
 </div>
 
-<center>
-<div id = "links">
-  <h2 style = "color:green"> Here are some links of interest for our little green friend </h2>
-      <figure>
-          <a href = "https://www.pokemoncenter.com/product/701-04408/grookey-poke-plush-9-3-4-in" target = "_blank">
-          <img src='pokeplush.jpg' alt='monkey link'  style="width:20%"/> </a>
-          <figcaption> <strong> If you want to adopt one! </strong> </figcaption>
-      </figure>
+<!-- RATES SECTION -->
 
-      <figure>
-          <a href = "https://www.smogon.com/dex/ss/pokemon/grookey/" target = "_blank">
-          <img src='smogon.jpg' alt='smogon link'  style="width:20%"/> </a>
-          <figcaption> <strong> Look at the Smogon entry! </strong> </figcaption>
-      </figure>
+<div class="w3-container" id="rates">
+  <div class="w3-content" style="max-width:700px">
+
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Teaching Rates</span></h5>
+
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink"><center> Rates </center> </div>
+      </a>
+
+    </div>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+      <h5>30 minute lesson----------------------------------------------------------$20 </h5>
+      <h5>45 minute lesson----------------------------------------------------------$25 </h5>
+      <h5>60 minute lesson----------------------------------------------------------$30 </h5>
+    </div>
+
+  </div>
 </div>
 
+<!-- Contact/Area Container -->
+<div class="w3-container" id="contact" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CONTACT</span></h5>
+    <p>Contact me at <strong>justin.lee@redlands.edu</strong> or text/call at <strong>(626)733-1480 </strong> </p>
+
+    </form>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
 
 
 
-</center>
+
+
+
+
+
+
+
+
+
+
+
+
 </html>
