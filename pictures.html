@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<title>Justin Lee</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("bearScene.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="./index.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="./index.html#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="./index.html#rates" class="w3-button w3-block w3-black">RATES</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="./index.html#contact" class="w3-button w3-block w3-black">CONTACT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="./performances.html" class="w3-button w3-block w3-black">PERFORMANCES</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="./film.html" class="w3-button w3-block w3-black">HOBBIES</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="./pictures.html" class="w3-button w3-block w3-black">PICTURES</a>
+    </div>
+
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-black" style="font-size:90px">PICTURES</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">justin.lee@redlands.edu</span>
+  </div>
+</header>
+
+
+
+
+  <!-- Style for each picture -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  .container {
+    position: relative;
+    width: 100%;
+  }
+
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .overlay {
+    text: "Inconsolata", sans-serif;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  .texts {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  </style>
+
+  <!-- Photo Grid -->
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+
+  }
+
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  /* Create three equal columns that sits next to each other */
+  .column {
+    -ms-flex: 33.3333%; /* IE10 */
+    flex: 33.3333%;
+    max-width: 33.3333%;
+    padding: 0 4px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  </style>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="w3-container" id="about">
+      <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Moments in Life</span></h5>
+        <p>Here are some fun pictures throughout my life as a student and as a piano teacher! “Taking an image, freezing a moment, reveals how rich reality truly is.” - Anonymous</p>
+
+  </div>
+
+
+  <!-- Photo Grid -->
+          <!-- COLUMN 1 -->
+  <div class="row">
+    <div class="column">
+
+      <div class="container">
+        <img src="masterClass.jpg" alt="Master Class" class="image" style= "width: 100%">
+          <div class="overlay">
+            <div class="texts">My first masterclass with Eva Polgar </div>
+          </div>
+        </div>
+
+        <div class="container">
+                <img src="myDorm.jpg"  alt= "My dorm" class="image" style= "width: 100%">
+                      <div class="overlay">
+                        <div class="texts">My freshman dorm</div>
+                      </div>
+                  </div>
+
+        <div class="container">
+            <img src="anthonyPerformance.jpg" alt="Cello Masterclass" class="image" style= "width: 100%">
+              <div class="overlay">
+                <div class="texts">Masterclass with John Waltz, principal cellist of the LA Opera</div>
+              </div>
+          </div>
+      <div class="container">
+            <img src="Anthony.jpg" alt="My friend and I" class="image" style= "width: 100%">
+              <div class="overlay">
+                <div class="texts">Anthony and I have a photoshoot!</div>
+              </div>
+          </div>
+      <div class="container">
+            <img src="Friends.jpg" alt="Master Class" class="image" style= "width: 100%">
+              <div class="overlay">
+                <div class="texts">My friends and I in LA </div>
+              </div>
+            </div>
+      <div class="container">
+            <img src="pianoStudio.jpg" alt="Piano Studio" class="image" style= "width: 100%">
+              <div class="overlay">
+                <div class="texts">The Redlands School of Music Piano Studio 2017 </div>
+              </div>
+            </div>
+
+    </div>
+
+    <div class="column">
+      <div class="container">
+            <img src="musicBears.jpg" alt="Music Bears" class="image" style= "width: 100%">
+              <div class="overlay">
+                <div class="texts">The end of the piano showcase 2019: with bears!</div>
+              </div>
+          </div>
+      <div class="container">
+              <img src="meAndProf.jpg" alt="President's Honor Recital" class="image" style= "width: 100%">
+                <div class="overlay">
+                  <div class="texts">The end of the President's Honor Recital: with my professor, Prof. Long</div>
+                </div>
+              </div>
+      <div class="container">
+                <img src="Vegas.jpg" alt="Family" class="image" style= "width: 100%">
+                    <div class="overlay">
+                      <div class="texts">My family and I in Las Vegas</div>
+                    </div>
+                </div>
+        <div class="container">
+                <img src="mochiRun.jpg" alt="My dog, Mochi!" class="image" style= "width: 100%">
+                      <div class="overlay">
+                        <div class="texts">My dog, Mochi!</div>
+                      </div>
+                  </div>
+        <div class="container">
+                <img src="ASA.jpg"  alt= "ASA" class="image" style= "width: 100%">
+                            <div class="overlay">
+                                  <div class="texts">My club during Lunar New Year! </div>
+                              </div>
+                  </div>
+
+    </div>
+
+    <div class="column">
+      <div class="container">
+          <img src="myStudio.jpg" alt="Piano Studio" class="image" style= "width: 100%">
+            <div class="overlay">
+              <div class="texts">My piano studio's latest recital! </div>
+            </div>
+        </div>
+
+      <div class="container">
+              <img src="Mochi.jpg" alt= "Mochi" class="image" style= "width: 100%">
+                        <div class="overlay">
+                            <div class="texts">Mochi the dog</div>
+                        </div>
+              </div>
+
+      <div class="container">
+                <img src="christmasFam.jpg" alt= "Christmas Fam" class="image" style= "width: 100%">
+                        <div class="overlay">
+                            <div class="texts">Christmas with family!</div>
+                        </div>
+                  </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+
+  </body>
+</html>
